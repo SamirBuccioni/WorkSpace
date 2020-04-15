@@ -1,7 +1,7 @@
 /*
  * funciones.h
  *
- *  Created on: Apr 13, 2020
+ *  Created on: Apr 14, 2020
  *      Author: samir
  */
 
@@ -11,5 +11,6 @@
 int getInt(char mensaje[]);
 float getFloat(char mensaje[]);
 char getChar(char mensaje[]);
+int getRandomNumber(int from, int to, int iniciar);
 
 #endif /* FUNCIONES_H_ */
